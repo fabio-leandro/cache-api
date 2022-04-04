@@ -1,0 +1,11 @@
+spring:
+  cache:
+    type: redis
+    redis:
+      time-to-live: 15000
+  redis:
+    host: localhost
+
+logging:
+  level:
+    org.springframework.cache: TRACE
